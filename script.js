@@ -128,21 +128,6 @@ var countrys = ['Morocco','Brazil','France','Spain']
          name: 'Temporada em Versailhes| 12 de Março a 19 de Março',
          preco: 1300.7
         },
-        {
-         id:'India',
-         name: 'Rajastão e Varanasi | 12 de Novembro a 15 de Novembro',
-         preco: 750
-        },
-        {
-         id:'India',
-         name: 'Tour por Agra| 15 de Março a 25 de Março',
-         preco: 1111.9
-        },
-        {
-         id:'India',
-         name: 'Tour pelo templo Tirumala| 15 de Março a 25 de Março',
-         preco: 1089.9
-        },
 ];
         function changeImage(country){
            /*document.getElementById("image").innerHTML = '<img width="300px"; height="300px"; class="" src=./images/'+pais.value+'.jpg>';*/
