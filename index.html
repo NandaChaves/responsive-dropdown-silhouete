@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Responsive Map silhouete cards</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h4 class="col-12 my-4 text-center">Autumn and winter promotions 2023-24</h4>
+
+    <div class="col-11">
+      <select id="select" class="form-control col-md-2 embed-responsive" onchange="changeImage(this)">
+          <option value="paises">Paises</option>
+      </select>
+    </div>
+
+    <div class="row">
+
+      <div class="cont col-3 my-3">
+        <div class="box">
+           <video id="video" src="./images/Brazil.mp4" autoplay muted loop></video>
+           <img id="img" src="./images/Brazil.jpg">
+        </div>  
+    </div>
+    <div class="containe col-8 col-xl-8">
+      <div class="box">
+        <div class="imgBox">
+           <img src="images/Brazil1.jpg" id="img1">
+         </div>
+         <div class="content">
+          <h2>Semana no Rio de Janeiro| 19 de Janeiro a 29 de Janeiro</h2>
+        <p id="preco1">1050€</p>
+          </div>
+       </div>
+  
+       <div class="box">
+        <div class="imgBox">
+           <img src="images/Brazil2.jpg" id="img2">
+         </div>
+         <div class="content">
+          <h2>Carnaval Pernambucano| 17 de Fevereiro a 22 de Fevereiro</h2>
+        <p id="preco2">950€</p>
+          </div>
+       </div>
+  
+       <div class="box">
+        <div class="imgBox">
+           <img src="images/Brazil3.jpg" id="img3">
+         </div>
+         <div class="content">
+          <h2>4 dias em Minas Gerais| 10 Agosto a 14 de Agosto</h2>
+        <p id="preco3">450€</p>
+          </div>
+       </div>
+  </div>
+
+  
+<div id="items" class="containe"></div>
+<div id="item2" class="containe"></div>
+<div id="item3" class="containe"></div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
