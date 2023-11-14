@@ -1,4 +1,4 @@
-var countrys = ['Morocco','Brazil','USA','France','India','Italy','Spain']
+var countrys = ['Morocco','Brazil','France','Spain']
         countrys.sort()
         let i=0;
         var option;
